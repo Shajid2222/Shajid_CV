@@ -1,0 +1,183 @@
+*{
+    margin: 0  5px 0 5px;
+    padding: 0;
+}
+
+body{
+    background-color: grey;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container{
+    margin-left: none;
+    padding: 10px 0 20px 0;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #FFF8DC;
+}
+
+.profile-img{
+    height: 150px;
+    width: 140px;
+    margin-left: 10px;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: block;
+    float: left;
+}
+
+.bio{
+    float: left;
+    padding: 20px;
+    color: teal
+}
+
+.bio h1:hover{
+    color: tomato;
+    background-color: white;
+    border-radius: 5px;
+}
+h1, h2, h3, h4, h5, h6{
+    background-color: none;
+}
+
+.head-contact{
+    float: right;
+    padding: 20px;
+    
+}
+
+.head-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+
+}
+
+.head-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+
+.div-clear{
+    clear: both;
+}
+
+.underline{
+    border: 2px solid black;
+    margin: 0  5px 0 5px;
+}
+
+.underline1{
+    border: 1px solid black;
+    margin: 0  5px 0 5px;
+}
+
+/* --------------------
+personal information 
+-----------------------*/
+
+#personal-info{
+    margin: 20px 0 0 2px;
+}
+
+.content{
+    margin-bottom: 30px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+    text-transform: capitalize;
+    color: teal;
+
+}
+
+.right-div{
+    width: 65%;
+    float: left;
+    
+}
+/* ----------------------------------------
+        EDUCATIONAL QUALIFICATION
+------------------------------------------- */
+.table{
+    width: 100%;
+    border: 2px solid tomato;
+    text-transform: capitalize;
+    background-color: white;
+}
+
+.table th{
+    padding: 20px;
+    font-weight: bold;
+    background-color: #BDB76B;
+
+}
+
+.table td{
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.table tr:nth-child(even){
+    background-color: #E7E9EB;
+}
+
+.table th:hover{
+    background-color: #7FFF00;
+}
+.table tr:hover{
+    background-color: aqua;
+}
+
+#references .right-div{
+    background-color: #BDB76B;
+    border-radius: 10px;
+
+}
+#references .right-div:hover{
+    background-color: #7FFF00;
+}
+
+.para1{
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.div1{
+    float: left;
+    margin: 65px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.div2{
+    float: right;
+    margin: 65px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.para2{
+    text-align: center;
+    font-weight: bold;
+}
+
+h5{
+    padding: 25px;
+    padding: 0 5px 0 5px;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 30px;
+    background-color: white;
+    
+}
+
+h5:hover{
+    color: tomato ;
+}
+
+
+
+
